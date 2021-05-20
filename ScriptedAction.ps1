@@ -4,7 +4,7 @@ Invoke-Expression -Command 'c:\temp\notepadplusplus.exe /S'
 
 #Start sleep
 Start-Sleep -Seconds 10
-<#
+
 # Install FSLogix
 Invoke-WebRequest -Uri 'https://aka.ms/fslogix_download' -OutFile 'c:\temp\fslogix.zip'
 Start-Sleep -Seconds 10
